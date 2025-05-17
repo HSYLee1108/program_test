@@ -1,0 +1,27 @@
+h1{
+    color:royalblue;
+}
+
+.sizeA{
+    font-size: 60px;
+    opacity: 0.2;
+}
+.sizeB{
+    font-size: 100px;
+}
+#first{
+    color: aqua;
+    line-height: 15px;
+    text-decoration: line-through;
+}
+html{
+    background-color: antiquewhite;
+}
+.img1{
+    background-color: skyblue;
+    padding: 15px;
+    border: 20px solid black;
+    margin: 60px;
+    width: 80%;
+    height: 80%;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hello</title>
+    </head>
+    <body>
+        <style>
+            html{
+                background: scroll;
+                background-color: aquamarine;
+                background-size:cover;
+                background-repeat: no-repeat;
+            }
+            .img1{
+                background-color: none;
+                padding: auto;
+                border: 0px solid black;
+                margin: auto;
+                width: 100%;
+                height: 100%;
+
+            }
+        </style>
+
+        <form action="">
+            <input id="name" placeholder="Name">
+            <input type="submit">
+        </form>
+        
+        <h1 class="hello"></h1>
+
+        <button id="changecolor"><h1>changecolor</h1></button>
+        
+        <button id="changeword"><h1>changeword</h1></button>
+
+        <button id="restart">restart</button>
+        
+    </body>
+    <script>
+        document.querySelector('.hello').style.color = 'black' ;
+        document.querySelector('.hello').style.fontSize = '100px' ;
+        document.querySelector('.hello').innerHTML = 'Hello'
+        document.querySelector('#changecolor').addEventListener('click',function(){
+            if(document.querySelector('.hello').style.color == 'black'){
+                document.querySelector('.hello').style.color = 'red';
+                };
+            setInterval(() => {
+               
+                if(document.querySelector('.hello').style.color == 'red'){
+                    document.querySelector('.hello').style.color = 'orange';
+                }
+                else if(document.querySelector('.hello').style.color == 'orange'){
+                    document.querySelector('.hello').style.color = 'yellow';
+                }
+                else if(document.querySelector('.hello').style.color == 'yellow'){
+                    document.querySelector('.hello').style.color = 'green';
+                }
+                else if(document.querySelector('.hello').style.color == 'green'){
+                    document.querySelector('.hello').style.color = 'blue';
+                }
+                else if(document.querySelector('.hello').style.color == 'blue'){
+                    document.querySelector('.hello').style.color = 'purple';
+                }
+                else if(document.querySelector('.hello').style.color == 'purple'){
+                document.querySelector('.hello').style.color = 'red';
+                };
+            }, 100);
+        });
+
+        document.querySelector('form').addEventListener('submit',function(){
+            let name = document.querySelector('#name').value;
+            alert(`Hello, ${name}`);
+        });
+
+        document.querySelector('#changeword').addEventListener('click',function(){
+            let heading = document.querySelector('.hello');
+            if(heading.innerHTML == 'Hello'){
+                heading.innerHTML = 'Goodbye';
+            }
+            else{
+                heading.innerHTML = 'Hello';
+            }
+        });
+
+        document.querySelector('#restart').addEventListener('click',function(){
+            document.querySelector('.hello').style.color = 'black' ;
+            document.querySelector('.hello').innerHTML = 'Hello';
+        });
+        
+    </script>
+</html>
