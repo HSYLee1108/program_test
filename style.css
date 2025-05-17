@@ -1,27 +1,30 @@
-h1{
-    color:royalblue;
-}
-
 .sizeA{
-    font-size: 150px;
-    opacity: 0.2;
+    background-color: aliceblue;
+    font-size: 48px;
+    color:rgb(9, 161, 221);
 }
 .sizeB{
-    font-size: 100px;
+    padding:    3px;
+    max-width: auto;
+    font-size: 20px;
+}
+.sizeC{
+    background-color: aliceblue;
+    font-size: 48px;
+    color:royalblue;
 }
 #first{
-    color: aqua;
+    color: rgb(255, 0, 0);
     line-height: 15px;
     text-decoration: line-through;
 }
 html{
-    background-color: antiquewhite;
+    background-color: rgb(238, 150, 19);
 }
 .img1{
-    background-color: skyblue;
-    padding: 15px;
-    border: 20px solid black;
-    margin: 60px;
-    width: 80%;
-    height: 80%;
+    padding: 0 ;
+    border: 2px solid black;
+    margin: 10px ;
+    width: 95%;
+    height: 50%;
 }
