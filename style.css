@@ -9,7 +9,8 @@
     color:royalblue;
 }
 .sizeB{
-    padding:    3px;
+    position: absolute;
+    padding:  3px;
     max-width: auto;
     font-size: 20px;
 }
@@ -36,5 +37,5 @@ html{
 }
 .containerB{
     position: relative;
-    top: 5% ;
+    top: 8px ;
 }
