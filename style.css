@@ -1,12 +1,19 @@
 .sizeA{
     background-color: aliceblue;
-    font-size: 36px;
+    font-size: 48px;
     color:rgb(9, 161, 221);
+    top: 7px;
+    left: 10px;
+    position: relative;
 }
 .sizeC{
+    
     background-color: aliceblue;
-    font-size: 36px;
+    font-size: 48px;
     color:royalblue;
+    top: 7px;
+    left: 10px;
+    position: relative;
 }
 .sizeB{
     position: absolute;
@@ -27,15 +34,17 @@ html{
     border: 2px solid black;
     box-sizing: border-box;
     margin: 0 ;
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
 }
 .containerA{
-    position: absolute;
-    top: 8px;
-    left: 16px;
+    position: fixed;
+    background-color: aliceblue;
+    width: 100%;
+    top: -13px;
+    left: 0;
 }
 .containerB{
     position: relative;
-    top: 8px ;
+    text-align: center;
 }
