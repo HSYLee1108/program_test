@@ -49,19 +49,41 @@ html{
     padding: 10px;
     border-radius: 2rem;
 }
-.hetext{
+.index1{
+    color: khaki;
+    position:absolute;
+    padding-left: 15px;
+    margin: 0 ;
+    padding-top: 75px;
+    font-size:xx-large;
+}
+.index2{
     opacity: 0;
     color: gold;
-    font-size: xx-large;
+    position:absolute;
+    padding-left: 15px;
+    margin: 0 ;
+    padding-top: 95px;
+    font-size:xx-large;
+}
+.hetext{
+    opacity: 0;
+    color: rgba(255, 217, 0, 0.123);
+    position:absolute;
+    padding-left: 400px;
+    margin: 0 ;
+    padding-top: 165px;
+    font-size:22px;
 }
 #button1{
     position : absolute;
     padding-left: 20px ;
     margin: 0 ;
-    padding-top: 320px ;
+    padding-top: 130px ;
+    padding-left: 498px;
 }
 #hehe{
     position: absolute;
     margin: 0 ;  
-    font-size: 45px;
+    font-size: 20px;
 }
