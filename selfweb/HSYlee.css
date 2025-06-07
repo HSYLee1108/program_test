@@ -4,3 +4,38 @@ html{
     background-size:cover;
     background-repeat: no-repeat;
 }
+.web_bar{
+    position:absolute;
+    background-color: aliceblue;
+    width: 100%;
+    top: -13px;
+    left: 0;
+}
+.sizetitle1{
+    font-size: 48px;
+    color:royalblue;
+    top: 7px;
+    left: 10px;
+    position: relative;
+}
+.sizetitle2{
+    font-size: 48px;
+    color:rgb(9, 161, 221);
+    top: 7px;
+    left: 10px;
+    position: relative;
+}
+.profilephoto{
+    position: absolute;
+    top: 100px;
+    border-left-width: 0 ;
+    width: 400px;
+    height: 300px;
+    background-color: royalblue;
+}
+.profilephoto img{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+}
