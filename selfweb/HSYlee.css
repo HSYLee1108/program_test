@@ -1,9 +1,16 @@
+@font-face {
+  font-family: 'iansui';
+  src: url("Iansui-Regular.ttf");
+}
+
 html{
     background:fixed;
     background-color:antiquewhite;
     background-size:cover;
     background-repeat: no-repeat;
+    font-family: Helvetica, iansui;
 }
+
 .web_bar{
     position:absolute;
     background-color: aliceblue;
@@ -24,18 +31,21 @@ html{
     top: 7px;
     left: 10px;
     position: relative;
+    
 }
-.profilephoto{
+.profile_photo{
     position: absolute;
     top: 100px;
     border-left-width: 0 ;
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 210px;
     background-color: royalblue;
+    border-radius: 2rem;
 }
-.profilephoto img{
+.profile_photo img{
     position: absolute;
     width: 75px;
     height: 75px;
     padding: 10px;
+    border-radius: 2rem;
 }
