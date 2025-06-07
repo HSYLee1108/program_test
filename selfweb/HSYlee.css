@@ -49,3 +49,19 @@ html{
     padding: 10px;
     border-radius: 2rem;
 }
+.hetext{
+    opacity: 0;
+    color: gold;
+    font-size: xx-large;
+}
+#button1{
+    position : absolute;
+    padding-left: 20px ;
+    margin: 0 ;
+    padding-top: 320px ;
+}
+#hehe{
+    position: absolute;
+    margin: 0 ;  
+    font-size: 45px;
+}
