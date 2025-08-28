@@ -10,13 +10,19 @@ html{
     background-repeat: no-repeat;
     font-family: Helvetica, iansui;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .web_bar{
-    position:absolute;
+    top: 0;
+    left: -10px;
+    margin: -15px auto 0 auto;
+    width: auto;
+    overflow: hidden;
+    display: flex;
     background-color: aliceblue;
-    width: 100%;
-    top: -13px;
-    left: 0;
 }
 .sizetitle1{
     font-size: 48px;
@@ -33,58 +39,46 @@ html{
     position: relative;
     
 }
-.profile{
-    position: absolute;
-    top: 100px;
-    border-left-width: 0 ;
+.profile_img{
+    border: 4px solid white;
+    border-radius: 100%;
+    display: block;
+    margin: 30px auto 8px auto;
+
+}
+
+:root {
+  --neon-text-light: rgba(255,255,255, .25);
+  --neon-text-color: #04f;
+  --neon-text-stroke: #4CF1FF;
+}
+.name_1{
+    display: block;
+    color: rgb(107, 196, 231);
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1;
+	text-shadow: 
+		-0.2rem -0.2rem 1rem var(--neon-text-light),
+		0.2rem 0.2rem 1rem var(--neon-text-light),
+		0 0 1rem var(--neon-text-color),
+		0 0 2rem var(--neon-text-color),
+		0 0 3rem var(--neon-text-color),
+		0 0 4rem var(--neon-text-color),
+		0 0 5rem var(--neon-text-color);
+    margin: 30px 10px 40px 10px;
+}
+.index_self{
+    background-color: aliceblue;
+    display: block;
+    text-align: center;
     width: 600px;
-    height:110px;
-    background-color: royalblue;
-    border-radius: 2rem;
+    margin: 0 auto 0 auto;
+    padding: 20px;
 }
-.profile img{
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 2rem;
-}
-.index1{
-    color: khaki;
-    position:absolute;
-    padding-left: 165px;
-    margin: 0 ;
-    padding-top: 65px;
-    font-size:large;
-}
-.index2{
-    opacity: 0;
-    color: gold;
-    position:absolute;
-    padding-left: 15px;
-    margin: 0 ;
-    padding-top: 95px;
-    font-size:xx-large;
-}
-.DCtext{
-    opacity: 0;
-    color: rgba(255, 217, 0, 0.212);
-    position:absolute;
-    padding-left: 400px;
-    margin: 0 ;
-    padding-top: 195px;
-    font-size:22px;
-}
-#buttondiv{
-    position : absolute;
-    margin: 0 ;
-    padding-top: 135px ;
-    padding-left: 545px;
-}
-#button1{
-    background-color: rgb(154, 162, 170);
-    position: absolute;
-    margin: 0 ;  
-    font-size: 20px;
+
+#putsometext{
+    font-size: 30px;
+    text-shadow: 10px 10px 10px rgb(185, 185, 185);
 }
