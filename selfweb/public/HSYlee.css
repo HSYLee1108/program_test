@@ -5,24 +5,21 @@
 
 html{
     background:fixed;
-    background-color:antiquewhite;
     background-size:cover;
     background-repeat: no-repeat;
     font-family: Helvetica, iansui;
 }
+
 body{
+    background-color: #F0F4FF;
     margin: 0;
     padding: 0;
 }
 
-.web_bar{
-    top: 0;
-    left: -10px;
-    margin: -15px auto 0 auto;
+.web_topbar{
     width: auto;
+    background-color: antiquewhite;
     overflow: hidden;
-    display: flex;
-    background-color: aliceblue;
 }
 .sizetitle1{
     font-size: 48px;
@@ -82,3 +79,31 @@ body{
     font-size: 30px;
     text-shadow: 10px 10px 10px rgb(185, 185, 185);
 }
+
+
+.sidebar {
+  position: fixed;
+  top: auto;
+  left: 0;
+  height: 100%;
+  width: 35px;
+  display: flex;
+  overflow-x: hidden;
+  flex-direction: column;
+  background: #161a2d;
+  padding: 25px 20px;
+  transition: all 0.4s ease;
+}
+.sidebar:hover {
+  width: 325px;
+}
+.sidebar .sidebar-header {
+  display: flex;
+  align-items: center;
+}
+.sidebar .sidebar-header img {
+  width: 64px;
+  border-radius: 50%;
+  margin: 0 -12px;
+}
+
